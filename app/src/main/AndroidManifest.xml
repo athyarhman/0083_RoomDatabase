@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Tambahkan permission di sini jika aplikasimu nanti butuh internet/akses lain -->
+    <!-- Contoh: <uses-permission android:name="android.permission.INTERNET" /> -->
+
     <application
+        android:name=".AplikasiSiswa"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -11,6 +15,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme._0083_RoomDatabase">
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -23,6 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
