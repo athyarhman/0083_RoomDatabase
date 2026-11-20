@@ -1,4 +1,4 @@
-package com.example.a0083_roomdatabase.uicontroller
+package com.example.a0083_roomdatabase.view.route
 
 import com. example. a0083_roomdatabase.R
 

@@ -23,7 +23,6 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
@@ -34,10 +33,10 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.a0083_roomdatabase.R
 import com.example.a0083_roomdatabase.room.Siswa
-import com.example.a0083_roomdatabase.uicontroller.DestinasiNavigasi
-import com.example.a0083_roomdatabase.uicontroller.SiswaTopAppBar
+import com.example.a0083_roomdatabase.view.route.DestinasiNavigasi
+import com.example.a0083_roomdatabase.view.uicontroller.SiswaTopAppBar
 import com.example.a0083_roomdatabase.viewmodel.HomeViewModel
-import com.example.a0083_roomdatabase.viewmodel.PenyediaViewModel
+import com.example.a0083_roomdatabase.viewmodel.provider.PenyediaViewModel
 
 object DestinasiHome : DestinasiNavigasi {
     override val route = "home"

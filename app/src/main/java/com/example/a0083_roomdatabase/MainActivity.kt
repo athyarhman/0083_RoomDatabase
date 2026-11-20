@@ -8,7 +8,7 @@ import androidx.compose.ui.Modifier
 import com.example.a0083_roomdatabase.ui.theme._0083_RoomDatabaseTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import com.example.a0083_roomdatabase.uicontroller.SiswaApp
+import com.example.a0083_roomdatabase.view.uicontroller.SiswaApp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
