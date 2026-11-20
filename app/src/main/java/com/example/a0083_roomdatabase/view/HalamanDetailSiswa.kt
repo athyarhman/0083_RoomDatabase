@@ -37,10 +37,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.a0083_roomdatabase.R
 import com.example.a0083_roomdatabase.room.Siswa
-import com.example.a0083_roomdatabase.view.uicontroller.DestinasiDetailSiswa
+import com.example.a0083_roomdatabase.view.route.DestinasiDetailSiswa
 import com.example.a0083_roomdatabase.viewmodel.DetailSiswaUiState
 import com.example.a0083_roomdatabase.viewmodel.DetailViewModel
-import com.example.a0083_roomdatabase.viewmodel.PenyediaViewModel
+import com.example.a0083_roomdatabase.viewmodel.provider.PenyediaViewModel
 import com.example.a0083_roomdatabase.viewmodel.toSiswa
 import kotlinx.coroutines.launch
 

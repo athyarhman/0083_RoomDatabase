@@ -9,9 +9,9 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.a0083_roomdatabase.view.uicontroller.DestinasiEditSiswa
+import com.example.a0083_roomdatabase.view.route.DestinasiEditSiswa
 import com.example.a0083_roomdatabase.viewmodel.EditViewModel
-import com.example.a0083_roomdatabase.viewmodel.PenyediaViewModel
+import com.example.a0083_roomdatabase.viewmodel.provider.PenyediaViewModel
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
